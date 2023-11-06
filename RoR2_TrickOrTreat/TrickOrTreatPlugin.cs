@@ -38,11 +38,6 @@ namespace RoR2_TrickOrTreat
 
         private void Awake()
         {
-            if (System.DateTime.Now.Month != 10)
-            {
-                return;
-            }
-
             PInfo = Info;
 
             LoadSoundBanks();
